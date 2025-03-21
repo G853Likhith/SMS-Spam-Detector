@@ -3,63 +3,67 @@
 A Streamlit-based machine learning application to classify SMS messages as spam or not spam.
 
 ## 🚀 Task Objectives
+
 - Detect spam messages using NLP and ML.
 - Implement a clean and user-friendly Streamlit UI.
 - Ensure high accuracy and proper dataset handling.
 
 ## 🛠️ Tech Stack
+
 - **Python** (Streamlit, Pandas, Scikit-learn, Joblib)
 - **Machine Learning** (TF-IDF + Logistic Regression)
 - **Dataset**: SMS Spam Collection Dataset
 - **Deployment**: Local Streamlit App
 
 ## 📂 Project Structure
+
 ```
 SMS-Spam-Detector/
-│── app.py                 # Streamlit UI for the model
-│── train_model.py         # Script to train and save the ML model
-│── tfidf_vectorizer.pkl   # TF-IDF vectorizer (saved model)
-│── spam_model.pkl         # Trained spam classification model
-│── requirements.txt       # List of dependencies
-│── README.md              # Project documentation
+│-- app.py               # Streamlit app
+│-- train_model.py       # Model training script
+│-- model.pkl           # Trained model
+│-- vectorizer.pkl      # TF-IDF vectorizer
+│-- requirements.txt     # Dependencies
+│-- README.md           # Project documentation
 ```
+
+## 🖼️ Project UI
+
+
 
 ## 🏃‍♂️ How to Run the Project
 
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/your-username/SMS-Spam-Detector.git
-cd SMS-Spam-Detector
-```
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/SMS-Spam-Detector.git
+   cd SMS-Spam-Detector
+   ```
+2. **Install dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. **Run the application:**
+   ```sh
+   streamlit run app.py
+   ```
 
-### 2️⃣ Install Dependencies
-```sh
-pip install -r requirements.txt
-```
+## 📌 Features
 
-### 3️⃣ Run the Application
-```sh
-streamlit run app.py
-```
+- User-friendly UI for SMS spam detection.
+- Uses TF-IDF vectorization with Logistic Regression.
+- Displays dataset preview.
+- Shows prediction results in real-time.
 
-## 📝 Features
-- **User-friendly Interface**: Simple UI to input messages.
-- **Real-time Predictions**: Classifies messages as Spam or Not Spam.
-- **Dataset Preview**: Option to view sample dataset entries.
-- **High Accuracy**: Model trained with a robust NLP pipeline.
+## 🏆 Future Improvements
 
-## 🎯 Evaluation Criteria
-✅ **Functionality**: The app correctly identifies spam messages.
-✅ **Code Quality**: Structured, readable, and well-documented.
-✅ **Innovation & Creativity**: User-friendly enhancements in UI.
-✅ **Documentation**: Clear explanation of the implementation.
-
-## 🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Improve accuracy with advanced NLP techniques.
+- Deploy the app using Streamlit Cloud or Heroku.
+- Implement additional visualization features.
 
 ---
-🚀 **Enjoy detecting spam messages!**
+
+📌 **Created with Streamlit & Scikit-learn**
+
+![image](https://github.com/user-attachments/assets/19b4e862-e29f-4007-bed7-ebeb3e1a2a3d)
+
 
